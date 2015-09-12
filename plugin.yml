@@ -1,0 +1,20 @@
+name: SimpleMaintenance
+version: 1.0
+main: org.v1cow.simplemaintenance.SimpleMaintenance
+author: v1cow
+description: Simple Maintenance plugin for your server.
+
+commands:
+    maintenance:
+        usage: /<command>
+        description: Base command for all SimpleMaintenance related sub-commands.
+permissions:
+    simplemaintenance.toggle:
+        default: op
+        description: Toggle maintenance.
+    simplemaintenance.bypass:
+        default: op
+        description: Bypass the maintenance lock.
+    simplemaintenance.check:
+        default: op
+        description: Permission to check the status of SimpleMaintenance.

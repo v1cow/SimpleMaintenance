@@ -1,0 +1,9 @@
+# SimpleMaintenance created by v1cow.
+# SimpleMaintenance configuration file. Color-codes are supported.
+
+maintenance_on: '&aMaintenance was enabled by %player%.'
+maintenance_off: '&aMaintenance was disabled by %player%.'
+joinmsg: '&fYou are not permitted to join this server while maintenance is activated.'
+kickmsg: '&cMaintenance was just enabled.'
+maintenance_enabled: '&aMaintenance is currently enabled.'
+maintenance_disabled: '&4Maintenance is currently disabled.'
